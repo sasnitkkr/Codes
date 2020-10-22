@@ -1,5 +1,8 @@
-//F[0]=0, F[1]=1, F[2]=1,....
-//Tabulation(BottomUp)
+/*F0=0, F1=1, F2=1, F3=2,......
+Tabulation(BottomUp)
+Time Complexity:-O(n)
+SpaceComplexity:-O(n)
+*/
 #include<bits/stdc++.h>
 using namespace std;
 int fib(int n)
