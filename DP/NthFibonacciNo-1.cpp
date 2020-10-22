@@ -1,6 +1,7 @@
-//F0=0, F1=1, F2=1, F3=2,......
-//CALCULATE nth fibonacci number
-//Recursion
+/*F0=0, F1=1, F2=1, F3=2,......
+Memoisation(TopDown)
+Time Complexity:-O(2^n)
+*/
 #include<bits/stdc++.h>
 using namespace std;
 int fib(int n)
