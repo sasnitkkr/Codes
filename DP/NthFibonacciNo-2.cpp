@@ -1,6 +1,9 @@
-//F0=0, F1=1, F2=1, F3=2,......
-//CALCULATE nth fibonacci number
-//Memoisation(TopDown)
+/*F0=0, F1=1, F2=1, F3=2,......
+Memoisation(TopDown)
+Time Complexity:-O(n)
+SpaceComplexity:-O(n)
+  GFG
+*/
 #include<bits/stdc++.h>
 using namespace std;
 int memo[1000];
@@ -13,7 +16,6 @@ int fib(int n)
             res=n;
         else
             res=fib(n-1)+fib(n-2);
-        
         memo[n]=res;
     }
     return memo[n];
