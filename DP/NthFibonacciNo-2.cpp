@@ -6,12 +6,14 @@ using namespace std;
 int memo[1000];
 int fib(int n)
 {
-    if(n==0 || n==1)
-        return n;
     if(memo[n]==-1)
     {
         int res;
-        res=fib(n-1)+fib(n-2);
+        if(n==0 || n==1)
+            res=n;
+        else
+            res=fib(n-1)+fib(n-2);
+        
         memo[n]=res;
     }
     return memo[n];
