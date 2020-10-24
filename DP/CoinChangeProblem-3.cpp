@@ -1,30 +1,38 @@
+/*
+Order of rows and column matters
+row-sum
+column-no of coins
+given sum different coins
+*/
 #include<bits/stdc++.h>
 using namespace std;
 int count(int coins[], int n, int sum)
 {
-    int bottomUp[n+1][sum+1];
-    for(int i=0; i<n+1; i++)
+    int bottomUp[sum+1][n+1];
+    //i-sum
+    //j-no of coins
+    for(int i=0; i<=sum; i++)
     {
-        for(int j=0; j<sum+1; j++)
+        for(int j=0; j<=n; j++)
         {
-            if(j==0)//sum=0 res=1
+            if(i==0)
                 bottomUp[i][j]=1;
-            else if(i==0)//coins(i)=0 sum(j)!=0 res=0
+            else if(j==0)
                 bottomUp[i][j]=0;
             else
             {
-                int res=bottomUp[i-1][j];
-                if(coins[i-1]<=j)
-                    res= res+bottomUp[i][j-coins[i-1]];
-                bottomUp[i][j]=res;
+                bottomUp[i][j]=bottomUp[i][j-1];
+                if(coins[j-1]<=i)
+                    bottomUp[i][j]+=bottomUp[i-coins[j-1]][j];
             }
         }
     }
-    return bottomUp[n][sum];
+    return bottomUp[sum][n];
+    
 }
 void solve()
 {
-    int n,sum;
+    int n, sum;
     cin>>n;
     int coins[n];
     for(int i=0; i<n; i++)
