@@ -7,10 +7,10 @@ int count(int coins[], int n, int sum)
     {
         for(int j=0; j<sum+1; j++)
         {
-            if(i==0)
-                bottomUp[i][j]=0;
-            else if(j==0)
+            if(j==0)//sum=0 res=1
                 bottomUp[i][j]=1;
+            else if(i==0)//coins(i)=0 sum(j)!=0 res=0
+                bottomUp[i][j]=0;
             else
             {
                 int res=bottomUp[i-1][j];
