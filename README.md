@@ -19,4 +19,11 @@ Data Structures:-
 5. Stack Queue
   Arrays
   STL
+  
+  
+  Important Algorithms
+  1. Kadane's Algorithm :- Maximum Subararay Sum (DP, Array)
+  2. Sieve of Eratosthenes :- Prime Numbers upto N (Array)
+  3. Sliding Window Technique :- Subarray, k, max-min
+  4. 
 
