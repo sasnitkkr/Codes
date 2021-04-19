@@ -54,7 +54,21 @@ int knapsack_TD(int wt[], int val[], int W, int n)
         dp[n][W] = ans;
     }
     return dp[n][W];
-}                                                  
+}       
+
+int knapsack_REC(int wt[], int val[], int W, int n) 
+{
+
+    if(W == 0 || n==0) return 0;
+    if(wt[n-1]<=W)
+    {
+        return max(val[n-1]+knapsack_REC(wt,val,W-wt[n-1],n-1), knapsack_REC(wt,val,W,n-1));
+    }
+    else
+    {
+        return knapsack_REC(wt, val, W, n-1); 
+    }
+}  
                                                            
 int main()
 {                                                      
