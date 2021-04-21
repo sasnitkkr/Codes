@@ -40,7 +40,7 @@ int LIS(string s1, string s2)
 int main()
 {
                                                            
-    int t=1;
+    int t;
     cin>>t;
     while(t--)
     {
