@@ -17,7 +17,7 @@ int LIS(int a[], int n)
         }
         else
         {
-            auto itr = lower_bound(dp.begin(), dp.end(),a[i]); // Binary Search -> Log(N)
+            auto itr = lower_bound(dp.begin(), dp.end(),a[i]); // Binary Search -> Log(N) lb gives ceil i.e ptr to >=target
             *itr = a[i];
         }
     }
