@@ -6,7 +6,8 @@ How to solve a dp Question
 
 /* HOW TO GET DP ARRAY IN MEMOIZATION */
 
-USE SIMPLE ARRAY ONLY
+1. dp[1001] or dp[1001][1001] + memset
+2. vector<vector<int> > dp(n, vector<int> (n,-1)); -> in case you are given Solution class and you pass dp arrry in function -> less memory for function in stack => USE vector and pass by reference
 
 int dp[1001] / int dp[1001][1001]
 
