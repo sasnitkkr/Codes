@@ -49,3 +49,5 @@ int main()
 /* Test Cases */
 1. 16 10
 exp op :- 2 2 -3
+2. 15 10
+exp op :- 5 1 -1
