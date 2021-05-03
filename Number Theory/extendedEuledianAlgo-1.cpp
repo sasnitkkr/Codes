@@ -45,3 +45,7 @@ int main()
                                                          
     return 0;
 }
+
+/* Test Cases */
+1. 16 10
+exp op :- 2 2 -3
