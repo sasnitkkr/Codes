@@ -28,7 +28,7 @@ int gcd(int a, int b)
 // can convert if m!=0
 int convert(string s, int m)
 {
-	long long ans = 0;
+    long long ans = 0;
     for(int i=0; i<s.length(); i++)
     {
         int current_digit = s[i]-'0'; 
@@ -50,7 +50,7 @@ int main(){
         if(a!=0)
         {
             int new_b = convert(b, a);
-        	  cout<<gcd(a, new_b)<<"\n";
+            cout<<gcd(a, new_b)<<"\n";
         }
         else
         {
