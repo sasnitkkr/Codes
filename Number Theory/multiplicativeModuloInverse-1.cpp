@@ -1,5 +1,9 @@
 /*
+  Basic Implementation
+
   (A.B)modulus m = 1 then B = ? is Multiplicative Modulo Inverse
+  
+  Note MMI is between [1, 2, 3, 4, ...,  m-1]
   
   Important MMI exists only if A and m are CO-PRIME (i.e. gcd(A,m) == 1 )
 */
