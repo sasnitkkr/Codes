@@ -4,7 +4,8 @@
   if I express n! ans -> 2^p * 3^q * 5^r * ...... * m^k
   then no of divisors are (p+1)(q+1)(r+1)...(k+1)
   
-  To find p q r use Legendre’s formula ⌊n/p⌋ + ⌊n/(p^2)⌋ + ⌊n/(p^3)⌋ + …… to find r in (prime_no)^r
+  each prime number, p find the largest power of it that divides n!
+  To find p q r use Legendre’s formula ⌊n/p⌋ + ⌊n/(p^2)⌋ + ⌊n/(p^3)⌋ + …… to find r in (prime_no)^r -> Works for factorial only
 */
 #include<bits/stdc++.h>
 using namespace std;
