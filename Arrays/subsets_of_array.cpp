@@ -1,3 +1,12 @@
+/*
+
+subset of {1, 2, 3} = subset of {1, 2} + append 3;
+                    = {} {1} {2} {1, 2} {3} {1, 3} {2, 3} {1, 2, 3}
+                    
+T(n) = O(n^2)
+
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -12,7 +21,7 @@ void subset(vector<int>& v, int n, vector<vector<int>>& output)
         return;
     }
     subset(v, n-1, output);
-    int cn=output.size();
+    int cn=output.size(); // Important to store and use current n 
     for(int i=cn; i<2*cn; i++)
     {   
         vector<int> tmp(output[i%cn]);
