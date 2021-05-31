@@ -4,6 +4,8 @@
  Method 1 :-  O(n) 1 pass
  Method 2 :-  O(n) 2 pass
  
+ Store index to  store frequency now in =>
+ 
  Variation :- 
  https://leetcode.com/problems/finding-pairs-with-a-certain-sum/
  
