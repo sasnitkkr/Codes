@@ -4,6 +4,13 @@
  Method 1 :-  O(n) 1 pass
  Method 2 :-  O(n) 2 pass
  
+ Variation :- 
+ https://leetcode.com/problems/finding-pairs-with-a-certain-sum/
+ 
+Two arrays
+a[i] + b[j] = t
+larger array => map
+ 
  Tip:-  Use umap, a, t
 */
 
