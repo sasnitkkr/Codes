@@ -1,16 +1,20 @@
-#Binary Trees
+# Binary Trees
 
-⭐Basic Terminology
+## Basic Terminology
+```
 1. Height :- Largest no of edges from root to leaf node. e.g height of root = 0
 2. Level :- Level of root = 1
+```
 
-⭐Input
+## Input
+```
 1. Use Stack (level wise)
-
-⭐Traversals
+```
+## Traversals
+```
 1. Preorder (Root L R)
-  a. Recursive
-  b. Stack ( push Root, R, L)
+    a. Recursive
+    b. Stack ( push Root, R, L)
   
 2. Inorder (L Root R)
   a. Recursive
@@ -30,4 +34,5 @@
   
 5. Boundary Traversal
     https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1#
-6. 
+6. Zigzag Traversal
+```
