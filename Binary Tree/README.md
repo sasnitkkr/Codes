@@ -52,3 +52,15 @@
 3. Replace Node with Depth
 4. LCA of BT
 ```
+## Construction
+```
+1. From PreOrder And InOrder
+2. From Parent Array
+```
+## Tree Views
+```
+1. Top
+2. Left
+3. Right
+4. Bottom
+```
