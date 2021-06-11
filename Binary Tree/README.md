@@ -25,7 +25,7 @@
   b. One Stack (Special)
   c. Two Stack (Special)
   
-4. Level Order Traversal - https://practice.geeksforgeeks.org/problems/level-order-traversal/1#
+4. Level Order - https://practice.geeksforgeeks.org/problems/level-order-traversal/1#
   a. Queue
   b. Recursion - level by level
   c. Reverse level order (level n, n-1, .... 3, 2, 1)
@@ -35,7 +35,19 @@
       q. https://www.codingninjas.com/codestudio/guided-paths/data-structures-algorithms/content/118521/offering/1380977
             a. simple levelorder -> op in stack
   
-5. Boundary Traversal
-    https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1#
-6. Zigzag Traversal
+5. Boundary - https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1#
+    Root Left Leaves Right (base cases-2) 
+6. Zigzag - https://practice.geeksforgeeks.org/problems/zigzag-tree-traversal/1
+    a. 2 stacks (LR RL)
+    b. level wise
+7. Spiral - https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1
+   a. 2 stacks (RL LR)
+   b. level wise
+```
+## Basic Problems
+```
+1. Height
+2. Diameter
+3. Replace Node with Depth
+4. LCA of BT
 ```
