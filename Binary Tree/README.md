@@ -4,6 +4,7 @@
 ```
 1. Height :- Largest no of edges from root to leaf node. e.g height of root = 0
 2. Level :- Level of root = 1
+3. Diameter/Width :- Number of nodes in the longest path between two end nodes
 ```
 
 ## Input
