@@ -50,7 +50,10 @@
 1. Height
 2. Diameter
 3. Replace Node with Depth
-4. LCA of BT
+4. LCA of BT - https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1
+    a. Storing root to n1 and root to n2 paths
+    b. Use Recursive Definition
+    c. Use Parent Pointer
 ```
 ## Construction
 ```
