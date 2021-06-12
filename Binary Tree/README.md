@@ -58,6 +58,8 @@
 ## Construction
 ```
 1. From PreOrder And InOrder
+    a. use rec (static int)
+    b. optimise using umap
 2. From Parent Array
 ```
 ## Tree Views
