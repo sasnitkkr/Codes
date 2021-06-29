@@ -1,6 +1,16 @@
 # Codes
 Helpful Codes
 
+
+### Topics
+```
+1. Complexity
+2. Maths
+3. Bit
+4. Recursion
+5. Array
+```
+
 Data Structures:-
 1. BST (Binary Search Tree)
   Struct left, right, parent
